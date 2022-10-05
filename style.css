@@ -1,0 +1,59 @@
+body{
+    font-family: sans-serif;
+    /* background-color: aqua; */
+    /* background-color: aquamarine; */
+    /* background-color: blue; */
+    /* background-color: blueviolet; */
+    background-color: brown; 
+    background-image:linear gradient(rgb(132, 95, 95),blue);
+}
+
+.box{
+    position:absolute;
+    top:15%;
+    left:15%;
+    /* view port height weight */
+    height: 70vh; 
+    width: 70vw;
+    background-color: rgb(101, 106, 106);
+    /* border: solid 5px; */
+    border-radius: 25px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+#heading{
+    font-size:80px;
+    color:aliceblue;
+    letter-spacing: 8px;
+    font-weight: 900;
+
+}
+#timer{
+    margin:50px;
+    font-size: 50px;
+    color: rgb(182, 14, 14)
+}
+#input{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+#button{
+    margin: 5px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    background-color: rgb(111, 44, 44);
+}
+#button:hover{
+    transition: all 1s;
+    background-color: rgb(126, 51, 51);
+}
